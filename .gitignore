@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Runtime state, recreated on first start
+data/
+logs/
+workspace/
+
+# Local tooling
+.claude/
+
+# Too large for GitHub (100 MB limit)
+*.mp4

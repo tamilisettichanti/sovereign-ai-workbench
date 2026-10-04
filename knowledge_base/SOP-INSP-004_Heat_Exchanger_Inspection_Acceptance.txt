@@ -1,0 +1,37 @@
+SOP-INSP-004  HEAT EXCHANGER INSPECTION - ACCEPTANCE CRITERIA
+Coastal Refinery Unit - Inspection Department
+Revision 3 (sample document for demonstration, not a real standard)
+
+1. PURPOSE
+This procedure sets the acceptance limits used when a shell and tube heat exchanger is inspected during a shutdown or turnaround, and states what action is required when a limit is not met.
+
+2. SHELL AND CHANNEL THICKNESS
+2.1 Measure wall thickness by ultrasonic gauging at all marked condition monitoring locations.
+2.2 The measured minimum thickness must be greater than the minimum required thickness stated on the equipment data sheet.
+2.3 Remaining corrosion allowance = measured minimum thickness minus minimum required thickness.
+2.4 If the remaining corrosion allowance is 1.0 mm or more, the equipment is acceptable for the normal inspection interval of 48 months.
+2.5 If the remaining corrosion allowance is less than 1.0 mm but greater than zero, the equipment is acceptable for continued service only with a reduced inspection interval of 12 months, and a replacement or repair plan must be raised.
+2.6 If the measured thickness is at or below the minimum required thickness, the equipment must not be returned to service.
+2.7 Corrosion rate (mm per year) = (nominal thickness minus measured minimum thickness) divided by years in service.
+2.8 Remaining life (years) = remaining corrosion allowance divided by corrosion rate.
+
+3. TUBE BUNDLE
+3.1 Plugged tubes must not exceed 10 percent of the total tube count.
+3.2 Between 5 percent and 10 percent plugged, retubing must be planned for the next turnaround.
+3.3 Above 10 percent plugged, the bundle must be retubed or replaced before the exchanger is returned to service.
+
+4. GASKETS AND FLANGED JOINTS
+4.1 Any gasket found leaking, damaged or hardened must be replaced before recommissioning. Gaskets are never reused.
+4.2 Flange faces must be free of radial scoring.
+
+5. CORROSION UNDER INSULATION (CUI)
+5.1 Light CUI: surface rust only. Clean and recoat at the next opportunity.
+5.2 Moderate CUI: pitting up to 1.0 mm deep. Clean, recoat and re-insulate before recommissioning.
+5.3 Severe CUI: pitting deeper than 1.0 mm. Engineering assessment is required before recommissioning.
+
+6. HYDROSTATIC TEST
+6.1 Test pressure is 1.3 times the design pressure, held for a minimum of 30 minutes.
+6.2 The test is passed when there is no pressure drop and no visible leak.
+
+7. REPORTING
+7.1 Findings that need repair expenditure or a reduced inspection interval must be put up for approval using the approval note format in SOP-ADM-011.

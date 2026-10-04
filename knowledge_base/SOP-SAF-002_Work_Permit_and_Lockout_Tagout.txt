@@ -1,0 +1,25 @@
+SOP-SAF-002  WORK PERMIT AND LOCKOUT-TAGOUT
+Coastal Refinery Unit - Fire and Safety
+Revision 4 (sample document for demonstration, not a real standard)
+
+1. PURPOSE
+No maintenance work may start on process equipment without a valid work permit and positive isolation of all energy sources.
+
+2. WORK PERMIT
+2.1 The permit is issued by the shift in-charge of the operating area and is valid for one shift only.
+2.2 Hot work needs a separate hot work permit and a gas test showing less than 5 percent of the lower explosive limit.
+2.3 Entry into a vessel or exchanger shell needs a confined space entry permit and an oxygen reading between 19.5 and 23.5 percent.
+
+3. LOCKOUT-TAGOUT (LOTO)
+3.1 Isolate electrical supply at the motor control centre and apply a personal lock and tag.
+3.2 Close and lock process isolation valves. Fit blinds where the fluid is hydrocarbon or toxic.
+3.3 Drain, depressurise and purge the equipment. Confirm zero energy before work begins.
+3.4 Each person working on the equipment applies their own lock. Locks are removed only by the person who applied them.
+
+4. PERSONAL PROTECTIVE EQUIPMENT
+4.1 Minimum PPE in process areas: helmet, safety shoes, safety glasses, flame retardant coverall and gloves.
+4.2 Use a breathing apparatus where hydrogen sulphide may be present.
+
+5. CLOSING THE PERMIT
+5.1 On completion, remove tools and blinds, restore guards, and return the permit to the issuer.
+5.2 The issuer inspects the site before the equipment is handed back to operations.

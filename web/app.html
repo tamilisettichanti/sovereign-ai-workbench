@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sovereign AI Workbench</title>
+<link rel="stylesheet" href="/static/css/app.css">
+</head>
+<body>
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand" id="brand"></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot">
+      <span class="dot"></span><b>System Online</b>
+      <p>Confidential AI.<br>Within your infrastructure.</p>
+    </div>
+  </aside>
+  <div class="main">
+    <header class="topbar">
+      <h2 id="page-title"></h2>
+      <div class="spacer"></div>
+      <span class="pill green onprem" id="onprem"></span>
+      <span class="muted small" id="clock"></span>
+      <div class="userbox">
+        <div class="avatar" id="avatar"></div>
+        <div><b id="user-name"></b><small id="user-role"></small></div>
+        <button class="btn sm" id="logout">Sign out</button>
+      </div>
+    </header>
+    <main id="page"></main>
+  </div>
+</div>
+<script src="/static/js/app.js"></script>
+<script src="/static/js/pages/dashboard.js"></script>
+<script src="/static/js/pages/workbench.js"></script>
+<script src="/static/js/pages/documents.js"></script>
+<script src="/static/js/pages/multimodal.js"></script>
+<script src="/static/js/pages/knowledge.js"></script>
+<script src="/static/js/pages/models.js"></script>
+<script src="/static/js/pages/audit.js"></script>
+<script src="/static/js/pages/misc.js"></script>
+<script>App.start();</script>
+</body>
+</html>

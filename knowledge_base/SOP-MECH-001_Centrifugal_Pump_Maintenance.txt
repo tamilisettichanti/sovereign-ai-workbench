@@ -1,0 +1,33 @@
+SOP-MECH-001  CENTRIFUGAL PUMP MAINTENANCE PROCEDURE
+Coastal Refinery Unit - Mechanical Maintenance
+Revision 5 (sample document for demonstration, not a real standard)
+
+1. SCOPE
+This procedure covers routine and preventive maintenance of horizontal centrifugal process pumps.
+
+2. ROUTINE CHECKS
+2.1 Daily: check for abnormal noise, seal leakage, bearing housing temperature and lube oil level.
+2.2 Weekly: record vibration at the drive end and non-drive end bearings.
+2.3 Every 3 months: carry out a routine inspection covering coupling condition, foundation bolts and mechanical seal flush lines.
+
+3. VIBRATION LIMITS
+3.1 Up to 4.5 mm/s RMS: acceptable.
+3.2 Above 4.5 and up to 7.1 mm/s RMS: alert. Investigate within 7 days.
+3.3 Above 7.1 mm/s RMS: stop the pump and changeover to the standby.
+
+4. BEARINGS AND LUBRICATION
+4.1 Bearing housing temperature must not exceed 80 degrees Celsius.
+4.2 Change lube oil every 6 months or 4000 running hours, whichever is earlier.
+4.3 Use only the lubricant grade listed on the pump data sheet.
+
+5. ALIGNMENT
+5.1 Check shaft alignment after any maintenance that disturbs the pump or motor.
+5.2 Allowable misalignment is 0.05 mm offset and 0.05 mm per 100 mm angular.
+
+6. MECHANICAL SEAL
+6.1 Visible leakage of more than 5 drops per minute requires seal replacement.
+6.2 Replace seal faces and secondary seals as a set.
+
+7. BEFORE STARTING WORK
+7.1 Obtain a work permit and apply lockout-tagout as per SOP-SAF-002.
+7.2 Isolate suction and discharge valves, drain and depressurise the casing.

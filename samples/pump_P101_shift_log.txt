@@ -1,0 +1,7 @@
+PUMP P-101 SHIFT LOG (sample)
+Date: 03 October 2026, Shift B
+Vibration drive end: 5.2 mm/s RMS. Non-drive end: 3.9 mm/s RMS.
+Bearing housing temperature: 71 degrees Celsius.
+Mechanical seal leakage: 2 drops per minute.
+Lube oil level normal. Last oil change 5 months ago.
+Remarks: slight noise at coupling. Operator: A. Shetty

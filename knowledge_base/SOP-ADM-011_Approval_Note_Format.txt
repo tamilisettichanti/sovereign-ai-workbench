@@ -1,0 +1,28 @@
+SOP-ADM-011  FORMAT FOR APPROVAL NOTES
+Coastal Refinery Unit - Administration
+Revision 2 (sample document for demonstration, not a real standard)
+
+1. PURPOSE
+All proposals that need sanction from a competent authority are put up as an approval note. This procedure fixes the format so that notes are consistent and can be decided quickly.
+
+2. SECTIONS OF AN APPROVAL NOTE
+Every approval note must contain the following sections, in this order:
+
+Subject: one line stating what approval is sought.
+Reference: the inspection report, work order or letter that the note is based on.
+Background: two or three sentences on the equipment or matter and why the note is raised.
+Key Findings: the facts, with measured values, listed as bullet points or a table.
+Assessment: each finding compared with the applicable SOP limit, stating acceptable or not acceptable.
+Proposal: the action recommended, with timeline.
+Financial Implication: the estimated cost and the budget head.
+Approval Sought: the specific approval requested and the competent authority.
+
+3. DELEGATION OF POWERS FOR MAINTENANCE EXPENDITURE
+Up to Rs 5 lakh: Deputy General Manager (Maintenance)
+Above Rs 5 lakh and up to Rs 25 lakh: General Manager (Technical Services)
+Above Rs 25 lakh: Executive Director (Refinery)
+
+4. STYLE
+4.1 Keep the note within two pages.
+4.2 State measured values with units. Do not use vague words such as "some" or "a few".
+4.3 Mark the note CONFIDENTIAL when it contains cost or vendor information.

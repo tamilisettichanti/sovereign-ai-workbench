@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+requests
+pyyaml
+psutil
+chromadb
+pillow
+pytesseract
+pymupdf
+python-docx
+python-pptx
+openpyxl

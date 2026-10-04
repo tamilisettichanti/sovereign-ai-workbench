@@ -1,0 +1,46 @@
+# Model registry.
+# To add a new open-weight model: `ollama pull <name>`, then add an entry here.
+# The router picks the first enabled, installed model that has the capability a task needs,
+# so order in this file is priority order.
+#
+# Capabilities understood by the router:
+#   tools  - can plan and call tools (agent tasks, document work)
+#   code   - code generation and debugging
+#   vision - can read images
+#   fast   - small and quick, for short chat
+
+models:
+  - name: qwen2.5:latest
+    label: Qwen 2.5 7B
+    family: General LLM
+    params: 7B
+    capabilities: [tools, text, documents, reasoning]
+    description: General reasoning and document work. Drives the agent and its tools.
+
+  - name: qwen2.5-coder:3b
+    label: Qwen 2.5 Coder 3B
+    family: Code LLM
+    params: 3B
+    capabilities: [code, text]
+    description: Writes and fixes code, which is then verified in the sandbox.
+
+  - name: llava:7b
+    label: LLaVA 7B
+    family: Vision LLM
+    params: 7B
+    capabilities: [vision, images, text]
+    description: Reads drawings, photographs and scanned pages.
+
+  - name: phi3:mini
+    label: Phi-3 Mini
+    family: Lightweight LLM
+    params: 3.8B
+    capabilities: [fast, text, chat]
+    description: Small and quick. Handles short questions and general chat.
+
+# If no model with the wanted capability is available, try these in order.
+fallbacks:
+  code: [tools, fast]
+  fast: [tools]
+  tools: [fast]
+  vision: []
