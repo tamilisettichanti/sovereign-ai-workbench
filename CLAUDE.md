@@ -32,7 +32,9 @@ as "Not downloaded" and the router falls back per `fallbacks` in `models.yaml`.
 
 Runtime state is generated and safe to delete to reset: `data/` (users, sessions, model on/off state,
 Chroma index), `logs/audit.jsonl`, `workspace/`. After deleting `data/chroma`, run `ingest_kb.py`.
-The folder is not a git repository. `README.md` holds the demo script and measured timings.
+The repository is on GitHub (`tamilisettichanti/sovereign-ai-workbench`, private). `requirements.txt`
+pins the tested versions. `README.md` holds the setup-from-clone steps, the demo script and measured
+timings.
 
 `smoke_test.py` calls the real models. Do not run it while the website is running a task (see the
 memory constraint below); it is a separate process and does not share the server's task queue.

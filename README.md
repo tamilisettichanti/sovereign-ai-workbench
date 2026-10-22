@@ -3,7 +3,84 @@
 A self-hosted AI workbench for confidential industrial work (problem statement 26117, MRPL).
 Every model runs on this laptop through Ollama. Nothing is sent to the internet.
 
-## Start it
+## Set up from GitHub (new computer)
+
+Written for Windows. You need internet once, for the downloads; after setup it runs fully offline.
+
+### 1. Install the prerequisites
+
+| Software | Where | Note |
+|---|---|---|
+| Git | https://git-scm.com/download/win | Default options are fine |
+| Python 3.10 | https://www.python.org/downloads/ | Tick **Add python.exe to PATH** in the installer. This project was tested on 3.10.11 |
+| Ollama | https://ollama.com/download | Runs the AI models locally. It starts by itself after installing |
+| Tesseract OCR | https://github.com/UB-Mannheim/tesseract/wiki | Install to the default folder `C:\Program Files\Tesseract-OCR` |
+
+Hardware: at least 16 GB RAM and about 20 GB free disk space. No graphics card is needed.
+
+### 2. Download the code
+
+```
+git clone https://github.com/tamilisettichanti/sovereign-ai-workbench.git
+cd sovereign-ai-workbench
+```
+
+The repository is private, so Git will ask you to sign in to a GitHub account that has access to it.
+
+### 3. Create the Python environment and install the libraries
+
+```
+py -3.10 -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+```
+
+This takes a few minutes. `requirements.txt` pins the versions that were tested.
+
+### 4. Download the AI models (about 14 GB in total)
+
+```
+ollama pull qwen2.5
+ollama pull qwen2.5-coder:3b
+ollama pull llava:7b
+ollama pull phi3:mini
+ollama pull nomic-embed-text
+```
+
+### 5. Prepare the demo data
+
+```
+.venv\Scripts\python scripts\make_samples.py
+.venv\Scripts\python scripts\ingest_kb.py
+```
+
+The first command draws the sample scanned report and P&ID drawing into `samples/`. The second
+indexes the SOPs in `knowledge_base/` into the local vector database (`data/chroma`).
+
+### 6. Start it
+
+```
+.venv\Scripts\python server.py
+```
+
+Open http://127.0.0.1:8000 and sign in with an account from `config/demo_users.json`. The
+`data/`, `logs/` and `workspace/` folders are created on the first start.
+
+To check that everything works without the website, run
+`.venv\Scripts\python scripts\smoke_test.py` (about 6 to 9 minutes; it should end with all
+checks passed).
+
+### If something does not work
+
+| Problem | Fix |
+|---|---|
+| Dashboard says "Ollama is not running" | Start Ollama from the Start menu, or run `ollama serve` in another terminal |
+| A model shows "Not downloaded" on the Models page | Run the matching `ollama pull` command from step 4 |
+| OCR Engine shows "Tesseract not found" | Install Tesseract to `C:\Program Files\Tesseract-OCR`, or add its folder to PATH |
+| `py -3.10` not found | Install Python 3.10, or use `python -m venv .venv` if `python --version` shows 3.10 or 3.11 |
+| Error that port 8000 is in use | Another copy of the server is running; close it first |
+| Knowledge Base page is empty | Run `scripts\ingest_kb.py` from step 5 |
+
+## Start it (after setup)
 
 Double-click `run.bat`, or:
 
